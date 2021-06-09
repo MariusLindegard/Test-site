@@ -1,9 +1,10 @@
 console.log("Hello World!")
 
-var startButton = document.getElementById("startButton")
+var expandButton = document.querySelector(".burgerIcon")
 
-console.log(startButton)
+// console.log(startButton)
 
-startButton.onclick = function() {
+expandButton.onclick = function() {
     console.log("pressed")
+    
 }
